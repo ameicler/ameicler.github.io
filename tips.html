@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <link href='images/favicon.png' rel='icon'>
+    <title>Tips &middot; David Yeiser Co.</title>
+    <link href='css/base.css' rel='stylesheet'>
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-36725854-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body class='body-tips body' itemscope='itemscope' itemtype='http://schema.org/WebPage'>
+    <div class='site'>
+      <header class='site-header frame clear'>
+        <div class='brand' id='brand'>
+          <a class='identity-link' href='index.html' itemprop='url' itemscope='itemscope' itemtype='https://schema.org/Brand'>
+            <img alt='David Yeiser Co. A Design Company' class='identity-monogram' itemprop='logo' src='images/dyc-monogram.svg' width='100%'>
+            <span class='hide' itemprop='name'>David Yeiser Co. A Design Company</span>
+          </a>
+        </div>
+        <nav class='main-nav g2 center clear' itemscope='itemscope' itemtype='https://schema.org/SiteNavigationElement'>
+          <ul class='main-nav-list clear'>
+            <li class='main-nav-item float-left'>
+              <a class='main-nav-link-portfolio main-nav-link' href='portfolio.html'>
+                <span class='scope-text'>Portfolio</span>
+              </a>
+            </li>
+            <li class='main-nav-item float-left'>
+              <a class='main-nav-link-services main-nav-link' href='services.html'>
+                <span class='scope-text'>Services</span>
+              </a>
+            </li>
+            <li class='main-nav-item float-left'>
+              <a class='main-nav-link-about main-nav-link' href='about.html'>
+                <span class='scope-text'>About</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <p class='ftfr'>
+        <a class='ftfr-link' href='fulltime-freelancer.html' title='Revenue and expenses as a full-time freelance designer (free)'>
+          <span class='hide'>Full-time Freelancer</span>
+        </a>
+      </p>
+      <main class='main' itemprop='mainContentOfPage'>
+        <div class='page-content frame clear'>
+          <h1 class='g2 center'>Tips</h1>
+          <p class='g2 d1 align-g2-center'>From time to time one comes across a snippet of code or a particular method that transcends the in-the-moment necessity of what you find on StackOverflow, not timeless, but an item to which to return when needed as you are guaranteed to likely need it again.</p>
+          <p class='s0 g2 d1 align-g2-center'>(These usually appear first <a href="https://twitter.com/davidyeiser" title="My dumb Twitter profile.">on Twitter</a>.)</p>
+          <hr class='hr align-g2-center'>
+          <div class='g2 d2 center'>
+            <h3 class='s1-plus1'>ePub</h3>
+            <p class='s0'>If you ever need to make an ePub file from scratch, the commands to do so with Terminal are below. They need to be executed from within the uncompressed ePub directory. You can then use Amazon&#8217;s <a href="http://www.amazon.com/gp/feature.html?docId=1000765211">KindleGen</a> to convert the ePub to a .mobi file.</p>
+            <p class='mono'>zip -X filename.epub mimetype <br>zip -rg filename.epub META-INF -x \*.DS_Store <br>zip -rg filename.epub OEBPS -x \*.DS_Store</p>
+          </div>
+          <div class='g2 d2 center'>
+            <h3 class='s1-plus1'>Geolocation</h3>
+            <p class='s0'>Here&#8217;s a neat JavaScript snippet for determining a visitor&#8217;s location. Unsure of how accurate it is other than it worked for me.</p>
+            <ul>
+              <li>jQuery.getJSON('http://freegeoip.net/json/ ', function(location) {</li>
+              <li class='tab1'>if (http://location.country _code == 'US') {</li>
+              <li class='tab2'>console.log("US");</li>
+              <li class='tab1'>}</li>
+              <li>});</li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer class='site-footer frame clear'>
+      <div class='footer-extras g2 center'>
+        <p class='footer-extra footer-text'><strong class="sp-sc">Extras<span class="bringhurst-enforcer">:</span></strong> <a class="no-decor" href="resources.html" title="As exciting as one can imagine.">Resources</a> &middot; <a class="no-decor" href="tips.html" title="As exciting as one can imagine.">Tips</a></p>
+        <hr class='hr-thin d0'>
+      </div>
+      <div class='footer-text-group d1 g2 center'>
+        <p class='copyright footer-text'>Copyright © 2004&thinsp;&ndash;&thinsp;2016 David Yeiser Co. All&nbsp;rights&nbsp;reserved.</p>
+        <p class='footer-text'>David Yeiser Co. is a legal entity of Everyday,&nbsp;LLC.</p>
+        <p class='footer-text'><a class="twitter-link" href="https://twitter.com/davidyeiser" title="Dumb things.">Twitter</a> &middot; <a class="dribbble-link" href="https://dribbble.com/davidyeiser" title="Designer social.">Dribbble</a> &middot; <a class="github-link" href="https://github.com/davidyeiser" title="Some stuff">GitHub</a> &middot; <a class="linkedin-link" href="https://www.linkedin.com/in/davidyeiser" title="Professional network?">LinkedIn</a> <span class="footer-contact-details">hello@davidyeiser.com &middot; (502) 550-7972</span></p>
+      </div>
+    </footer>
+  </body>
+</html>
