@@ -68,6 +68,9 @@ body {
 .body-portfolio-supaero {
 	background-color: #9d7d3d
 }
+.body-portfolio-pandascore {
+	background-color: #b300de
+}
 .body-portfolio-adveq {
 	background-color: #dc1e32
 }
@@ -379,6 +382,15 @@ sup, .sup {
 .body-portfolio-adveq .hr-page-sep:after {
 	background-color: #dc1e32
 }
+.body-portfolio-pandascore .hr-page-sep {
+	background-color: #b300de
+}
+.body-portfolio-pandascore .hr-page-sep:before {
+	background-color: #b300de
+}
+.body-portfolio-pandascore .hr-page-sep:after {
+	background-color: #b300de
+}
 @media screen and (min-width:960px) {
 	.g1 {
 		width: 53.59168%
@@ -587,6 +599,9 @@ sup, .sup {
 }
 .gca {
 	color: #00a4e4
+}
+.pandascore {
+	color: #b300de;
 }
 .adveq {
 	color: #de0027;
@@ -1216,6 +1231,13 @@ sup, .sup {
 	border: 1px solid rgba(30, 31, 34, 0.33);
 	background-color: #fff
 }
+
+.work-grid-item-link-pandascore:hover, .work-grid-item-link-pandascore:focus {
+	border-color: rgba(179, 0, 222, 0.05)
+}
+.work-grid-item-link-pandascore:hover .work-grid-thumbnail-img, .work-grid-item-link-pandascore:focus .work-grid-thumbnail-img {
+	border-color: #b300de
+}
 .work-grid-item-link-adveq:hover, .work-grid-item-link-adveq:focus {
 	border-color: rgba(220, 30, 50, 0.05)
 }
@@ -1382,6 +1404,9 @@ sup, .sup {
 .body-portfolio-supaero .figure-computer {
 	background-color: rgba(157, 125, 61, 0.18)
 }
+.body-portfolio-pandascore .figure-computer {
+	background-color: rgba(220, 30, 50, 0.18)
+}
 .body-portfolio-adveq .figure-computer {
 	background-color: rgba(220, 30, 50, 0.18)
 }
@@ -1516,6 +1541,9 @@ sup, .sup {
 }
 .body-portfolio-criteo .figure-img-scale {
 	border-color: #003e90
+}
+.body-portfolio-pandascore .figure-img-scale {
+	border-color: #b300de
 }
 .body-portfolio-adveq .figure-img-scale {
 	border-color: #dc1e32
