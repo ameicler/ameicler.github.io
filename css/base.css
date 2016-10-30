@@ -68,6 +68,9 @@ body {
 .body-portfolio-supaero {
 	background-color: #9d7d3d
 }
+.body-portfolio-devialet {
+	background-color: black
+}
 .body-portfolio-pandascore {
 	background-color: #b300de
 }
@@ -382,6 +385,15 @@ sup, .sup {
 .body-portfolio-adveq .hr-page-sep:after {
 	background-color: #dc1e32
 }
+.body-portfolio-devialet .hr-page-sep {
+	background-color: black
+}
+.body-portfolio-devialet .hr-page-sep:before {
+	background-color: black
+}
+.body-portfolio-devialet .hr-page-sep:after {
+	background-color: black
+}
 .body-portfolio-pandascore .hr-page-sep {
 	background-color: #b300de
 }
@@ -597,11 +609,17 @@ sup, .sup {
 .rede {
 	color: #dc1e32
 }
+.green {
+	color: #1abc9c
+}
 .gca {
 	color: #00a4e4
 }
 .pandascore {
 	color: #b300de;
+}
+.devialet {
+	color: black;
 }
 .adveq {
 	color: #de0027;
@@ -1231,12 +1249,23 @@ sup, .sup {
 	border: 1px solid rgba(30, 31, 34, 0.33);
 	background-color: #fff
 }
-
+.work-grid-item-link-nova:hover, .work-grid-item-link-nova:focus {
+	border-color: rgba(245, 76, 0, 0.05)
+}
+.work-grid-item-link-nova:hover .work-grid-thumbnail-img, .work-grid-item-link-nova:focus .work-grid-thumbnail-img {
+	border-color: #f54c00
+}
 .work-grid-item-link-pandascore:hover, .work-grid-item-link-pandascore:focus {
 	border-color: rgba(179, 0, 222, 0.05)
 }
 .work-grid-item-link-pandascore:hover .work-grid-thumbnail-img, .work-grid-item-link-pandascore:focus .work-grid-thumbnail-img {
 	border-color: #b300de
+}
+.work-grid-item-link-devialet:hover, .work-grid-item-link-devialet:focus {
+	border-color: rgba(0, 0, 0, 0.05)
+}
+.work-grid-item-link-devialet:hover .work-grid-thumbnail-img, .work-grid-item-link-devialet:focus .work-grid-thumbnail-img {
+	border-color: black
 }
 .work-grid-item-link-adveq:hover, .work-grid-item-link-adveq:focus {
 	border-color: rgba(220, 30, 50, 0.05)
@@ -1407,6 +1436,9 @@ sup, .sup {
 .body-portfolio-pandascore .figure-computer {
 	background-color: rgba(220, 30, 50, 0.18)
 }
+.body-portfolio-devialet .figure-computer {
+	background-color: rgba(0, 0, 0, 0.18)
+}
 .body-portfolio-adveq .figure-computer {
 	background-color: rgba(220, 30, 50, 0.18)
 }
@@ -1526,8 +1558,13 @@ sup, .sup {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	display: block;
-	position: relative
+	position: relative;
 }
+
+.figure-img-portoflio {
+	box-shadow: 0 8px 28px rgba(0,0,0,0.15),0 10px 10px rgba(0,0,0,0.12);
+}
+
 .figure-img-space {
 	display: block;
 	position: relative
@@ -1544,6 +1581,9 @@ sup, .sup {
 }
 .body-portfolio-pandascore .figure-img-scale {
 	border-color: #b300de
+}
+.body-portfolio-devialet .figure-img-scale {
+	border-color: black
 }
 .body-portfolio-adveq .figure-img-scale {
 	border-color: #dc1e32
@@ -1572,7 +1612,7 @@ sup, .sup {
 	display: inline-block;
 	width: 5.25rem;
 	height: 0;
-	margin: -0.1875rem -2.375rem 0 0.4375rem;
+	margin: -0.1875rem -2.375rem 0.8rem 0.4375rem;
 	position: relative;
 	top: 0.75rem;
 	border-top: 0.125rem solid #1e1f22;
@@ -1684,7 +1724,11 @@ _::-webkit-full-page-media strong:after, _:future strong:after, :root .figcaptio
 }
 .figure-small {
 	width: 100%;
-	max-width: 21.875rem
+	max-width: 21.875rem;
+}
+
+.figure-round {
+	border-radius:10px;
 }
 @media screen and (min-width:768px) {
 	.figure-small {
@@ -1721,7 +1765,7 @@ _::-webkit-full-page-media strong:after, _:future strong:after, :root .figcaptio
 .figure-open .figure-img-container {
 	webkit-box-shadow: none;
 	-moz-box-shadow: none;
-	box-shadow: none
+	box-shadow: none;
 }
 .figure-lead-brand {
 	width: 100%;
