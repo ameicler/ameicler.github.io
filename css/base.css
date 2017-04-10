@@ -74,6 +74,9 @@ body {
 .body-portfolio-pandascore {
 	background-color: #b300de
 }
+.body-portfolio-allocine {
+	background-color: #fecc00
+}
 .body-portfolio-adveq {
 	background-color: #dc1e32
 }
@@ -403,6 +406,15 @@ sup, .sup {
 .body-portfolio-pandascore .hr-page-sep:after {
 	background-color: #b300de
 }
+.body-portfolio-allocine .hr-page-sep {
+	background-color: #fecc00
+}
+.body-portfolio-allocine .hr-page-sep:before {
+	background-color: #fecc00
+}
+.body-portfolio-allocine .hr-page-sep:after {
+	background-color: #fecc00
+}
 @media screen and (min-width:960px) {
 	.g1 {
 		width: 53.59168%
@@ -617,6 +629,9 @@ sup, .sup {
 }
 .pandascore {
 	color: #b300de;
+}
+.allocine {
+	color: #fecc00;
 }
 .devialet {
 	color: black;
@@ -1261,6 +1276,12 @@ sup, .sup {
 .work-grid-item-link-pandascore:hover .work-grid-thumbnail-img, .work-grid-item-link-pandascore:focus .work-grid-thumbnail-img {
 	border-color: #b300de
 }
+.work-grid-item-link-allocine:hover, .work-grid-item-link-allocine:focus {
+	border-color: rgba(254, 204 ,0 , 0.05)
+}
+.work-grid-item-link-allocine:hover .work-grid-thumbnail-img, .work-grid-item-link-allocine:focus .work-grid-thumbnail-img {
+	border-color: #fecc00
+}
 .work-grid-item-link-devialet:hover, .work-grid-item-link-devialet:focus {
 	border-color: rgba(0, 0, 0, 0.05)
 }
@@ -1436,6 +1457,9 @@ sup, .sup {
 .body-portfolio-pandascore .figure-computer {
 	background-color: rgba(220, 30, 50, 0.18)
 }
+.body-portfolio-allocine .figure-computer {
+	background-color: rgba(254,204, 0, 0.18)
+}
 .body-portfolio-devialet .figure-computer {
 	background-color: rgba(0, 0, 0, 0.18)
 }
@@ -1581,6 +1605,9 @@ sup, .sup {
 }
 .body-portfolio-pandascore .figure-img-scale {
 	border-color: #b300de
+}
+.body-portfolio-allocine .figure-img-scale {
+	border-color: #fecc00
 }
 .body-portfolio-devialet .figure-img-scale {
 	border-color: black
