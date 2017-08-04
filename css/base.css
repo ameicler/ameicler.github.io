@@ -74,6 +74,9 @@ body {
 .body-portfolio-pandascore {
 	background-color: #b300de
 }
+.body-portfolio-natixis {
+	background-color: #8a4c91
+}
 .body-portfolio-allocine {
 	background-color: #fecc00
 }
@@ -406,6 +409,15 @@ sup, .sup {
 .body-portfolio-pandascore .hr-page-sep:after {
 	background-color: #b300de
 }
+.body-portfolio-natixis .hr-page-sep {
+	background-color: #8a4c91
+}
+.body-portfolio-natixis .hr-page-sep:before {
+	background-color: #8a4c91
+}
+.body-portfolio-natixis .hr-page-sep:after {
+	background-color: #8a4c91
+}
 .body-portfolio-allocine .hr-page-sep {
 	background-color: #fecc00
 }
@@ -629,6 +641,9 @@ sup, .sup {
 }
 .pandascore {
 	color: #b300de;
+}
+.natixis {
+	color: #8a4c91;
 }
 .allocine {
 	color: #fecc00;
@@ -1276,6 +1291,12 @@ sup, .sup {
 .work-grid-item-link-pandascore:hover .work-grid-thumbnail-img, .work-grid-item-link-pandascore:focus .work-grid-thumbnail-img {
 	border-color: #b300de
 }
+.work-grid-item-link-natixis:hover, .work-grid-item-link-natixis:focus {
+	border-color: rgba(138,76,145, 0.05)
+}
+.work-grid-item-link-natixis:hover .work-grid-thumbnail-img, .work-grid-item-link-natixis:focus .work-grid-thumbnail-img {
+	border-color: #8a4c91
+}
 .work-grid-item-link-allocine:hover, .work-grid-item-link-allocine:focus {
 	border-color: rgba(254, 204 ,0 , 0.05)
 }
@@ -1457,6 +1478,9 @@ sup, .sup {
 .body-portfolio-pandascore .figure-computer {
 	background-color: rgba(220, 30, 50, 0.18)
 }
+.body-portfolio-natixis .figure-computer {
+	background-color: rgba(138,76,145, 0.18)
+}
 .body-portfolio-allocine .figure-computer {
 	background-color: rgba(254,204, 0, 0.18)
 }
@@ -1605,6 +1629,9 @@ sup, .sup {
 }
 .body-portfolio-pandascore .figure-img-scale {
 	border-color: #b300de
+}
+.body-portfolio-natixis .figure-img-scale {
+	border-color: #8a4c91
 }
 .body-portfolio-allocine .figure-img-scale {
 	border-color: #fecc00
