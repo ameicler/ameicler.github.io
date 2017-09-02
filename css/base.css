@@ -80,6 +80,9 @@ body {
 .body-portfolio-allocine {
 	background-color: #fecc00
 }
+.body-portfolio-fabernovel {
+	background-color: #e5a824
+}
 .body-portfolio-adveq {
 	background-color: #dc1e32
 }
@@ -427,6 +430,15 @@ sup, .sup {
 .body-portfolio-allocine .hr-page-sep:after {
 	background-color: #fecc00
 }
+.body-portfolio-fabernovel .hr-page-sep {
+	background-color: #e5a824
+}
+.body-portfolio-fabernovel .hr-page-sep:before {
+	background-color: #e5a824
+}
+.body-portfolio-fabernovel .hr-page-sep:after {
+	background-color: #e5a824
+}
 @media screen and (min-width:960px) {
 	.g1 {
 		width: 53.59168%
@@ -647,6 +659,9 @@ sup, .sup {
 }
 .allocine {
 	color: #fecc00;
+}
+.fabernovel {
+	color: #e5a824;
 }
 .devialet {
 	color: black;
@@ -1303,6 +1318,12 @@ sup, .sup {
 .work-grid-item-link-allocine:hover .work-grid-thumbnail-img, .work-grid-item-link-allocine:focus .work-grid-thumbnail-img {
 	border-color: #fecc00
 }
+.work-grid-item-link-fabernovel:hover, .work-grid-item-link-fabernovel:focus {
+	border-color: rgba(229, 168, 36, 0.05)
+}
+.work-grid-item-link-fabernovel:hover .work-grid-thumbnail-img, .work-grid-item-link-fabernovel:focus .work-grid-thumbnail-img {
+	border-color: #e5a824
+}
 .work-grid-item-link-devialet:hover, .work-grid-item-link-devialet:focus {
 	border-color: rgba(0, 0, 0, 0.05)
 }
@@ -1484,6 +1505,9 @@ sup, .sup {
 .body-portfolio-allocine .figure-computer {
 	background-color: rgba(254,204, 0, 0.18)
 }
+.body-portfolio-fabernovel .figure-computer {
+	background-color: rgba(229, 168, 36, 0.18)
+}
 .body-portfolio-devialet .figure-computer {
 	background-color: rgba(0, 0, 0, 0.18)
 }
@@ -1635,6 +1659,9 @@ sup, .sup {
 }
 .body-portfolio-allocine .figure-img-scale {
 	border-color: #fecc00
+}
+.body-portfolio-fabernovel .figure-img-scale {
+	border-color: #e5a824
 }
 .body-portfolio-devialet .figure-img-scale {
 	border-color: black
