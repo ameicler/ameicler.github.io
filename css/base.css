@@ -1292,13 +1292,13 @@ sup, .sup {
 	width: 100%;
 	position: relative;
 	border: 1px solid rgba(30, 31, 34, 0.33);
-	background-color: #fff
+	background-color: rgba(255, 255,255,0.5);
 }
 .work-grid-item-link-nova:hover, .work-grid-item-link-nova:focus {
-	border-color: rgba(245, 76, 0, 0.05)
+	border-color: rgba(245, 76, 0, 0.05);
 }
 .work-grid-item-link-nova:hover .work-grid-thumbnail-img, .work-grid-item-link-nova:focus .work-grid-thumbnail-img {
-	border-color: #f54c00
+	border-color: #f54c00;
 }
 .work-grid-item-link-pandascore:hover, .work-grid-item-link-pandascore:focus {
 	border-color: rgba(179, 0, 222, 0.05)
