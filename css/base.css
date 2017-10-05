@@ -1675,6 +1675,38 @@ sup, .sup {
 .body-portfolio-eleven .figure-img-scale {
 	border-color: #2e9b42
 }
+
+
+/*ADD NEW CLIENT*/
+.vinci {
+	color: #295795;
+}
+.work-grid-item-link-vinci:hover, .work-grid-item-link-vinci:focus {
+	border-color: rgba(41,87,149 , 0.05)
+}
+.work-grid-item-link-vinci:hover .work-grid-thumbnail-img, .work-grid-item-link-vinci:focus .work-grid-thumbnail-img {
+	border-color: #295795
+}
+.body-portfolio-vinci .figure-computer {
+	background-color: rgba(41,87,149, 0.18)
+}
+.body-portfolio-vinci .figure-img-scale {
+	border-color: #295795
+}
+.body-portfolio-vinci {
+	background-color: #295795
+}
+.body-portfolio-vinci .hr-page-sep {
+	background-color: #295795
+}
+.body-portfolio-vinci .hr-page-sep:before {
+	background-color: #295795
+}
+.body-portfolio-vinci .hr-page-sep:after {
+	background-color: #295795
+}
+
+
 .figcaption {
 	display: block;
 	opacity: 0.67
