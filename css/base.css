@@ -135,7 +135,7 @@ a:hover, a:focus {
 	}
 }
 .body-portfolio .site {
-	background-color: #f1f1f1;
+	background-color: #fff;
 }
 .main {
 	display: block;
@@ -915,7 +915,7 @@ sup, .sup {
 }
 @media screen and (min-width:768px) {
 	.main-nav-link {
-		width: 7.85rem
+		width: 6.5rem
 	}
 }
 .main-nav-link-ftfr {
@@ -928,6 +928,9 @@ sup, .sup {
 	border-bottom-color: #1e1f22
 }
 .body-services .main-nav-link-services .scope-text {
+	border-bottom-color: #1e1f22
+}
+.body-services .main-nav-link-training .scope-text {
 	border-bottom-color: #1e1f22
 }
 .body-about .main-nav-link-about .scope-text {
@@ -1704,6 +1707,35 @@ sup, .sup {
 }
 .body-portfolio-vinci .hr-page-sep:after {
 	background-color: #295795
+}
+
+/*ADD NEW CLIENT*/
+.accenture {
+	color: #211ef5;
+}
+.work-grid-item-link-accenture:hover, .work-grid-item-link-accenture:focus {
+	border-color: rgba(33,30,245,0.05)
+}
+.work-grid-item-link-accenture:hover .work-grid-thumbnail-img, .work-grid-item-link-accenture:focus .work-grid-thumbnail-img {
+	border-color: #211ef5
+}
+.body-portfolio-accenture .figure-computer {
+	background-color: rgba(33,30,245 0.18)
+}
+.body-portfolio-accenture .figure-img-scale {
+	border-color: #211ef5
+}
+.body-portfolio-accenture {
+	background-color: #211ef5
+}
+.body-portfolio-accenture .hr-page-sep {
+	background-color: #211ef5
+}
+.body-portfolio-accenture .hr-page-sep:before {
+	background-color: #211ef5
+}
+.body-portfolio-accenture .hr-page-sep:after {
+	background-color: #211ef5
 }
 
 
