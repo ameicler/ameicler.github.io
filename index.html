@@ -18,6 +18,7 @@
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
       ga('create', 'UA-84986076-1', 'auto');
       ga('send', 'pageview');
+      });
       // remove utm_* query parameters
       ga(function() {
         function paramIsNotUtm(param) { return param.slice(0, 4) !== 'utm_'; }
@@ -30,7 +31,6 @@
             history.replaceState(null, null, url);
           }
         }
-      });
     </script>
   </head>
   <body class='body-home body' itemscope='itemscope' itemtype='http://schema.org/WebPage'>
