@@ -1,31 +1,23 @@
 /*
   —·—·—·—·—·—·—·—·—·—·—·—
-  JAVASCRIPT
+  SITE UI INTERACTIONS
   —·—·—·—·—·—·—·—·—·—·—·—
 */
 
-var targetFigureByClass = 'figure-website';
-var classFigureExpand = 'figure-website-expand';
+// Constants
+const FIGURE_CLASS = 'figure-website';
+const FIGURE_EXPAND_CLASS = 'figure-website-expand';
 
-// var targetFigureCaptionClass = ".figcaption";
-// var classFigureCaptionAdjust = "g3-align-g2-center";
-
-var websiteFigures = document.getElementsByClassName(targetFigureByClass);
-
-for (var i = 0; i < websiteFigures.length; i++) {
-  websiteFigures[i].onclick = function() {
-    // var figureCaption = this.querySelectorAll(targetFigureCaptionClass);
-
-    if (this.classList.contains(classFigureExpand)) {
-      this.classList.remove(classFigureExpand);
-      // figureCaption[0].classList.remove(classFigureCaptionAdjust);
-    }
-    else {
-      this.classList.add(classFigureExpand);
-      // figureCaption[0].classList.add(classFigureCaptionAdjust);
-    }
-  }
-}
+// Initialize website figures
+document.addEventListener('DOMContentLoaded', () => {
+  // Handle figure expansion
+  const websiteFigures = document.getElementsByClassName(FIGURE_CLASS);
+  Array.from(websiteFigures).forEach(figure => {
+    figure.addEventListener('click', () => {
+      figure.classList.toggle(FIGURE_EXPAND_CLASS);
+    });
+  });
+});
 
 /*
 var hoverTargetId = 'work-grid-item-link-ssm';
